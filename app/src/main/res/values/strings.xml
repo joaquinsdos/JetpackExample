@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LiveDataExample</string>
+    <string name="starLogo">LogoEstrella</string>
+    <string name="connect">Conectar</string>
+    <string name="name">Nombre</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Hello, %1$s! You have 2 new messages.</string>
+    <string name="last_user">Ultimo usuario logado: %1$s</string>
+    <string name="welcome">Bienvenido</string>
+</resources>
