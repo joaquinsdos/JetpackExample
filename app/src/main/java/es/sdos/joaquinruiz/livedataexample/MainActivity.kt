@@ -39,10 +39,6 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun backLock() {
-        mBackLocked = true
-    }
-
     override fun onBackPressed() {
         if (mBackLocked) {
             mBackLocked = false
@@ -50,6 +46,10 @@ class MainActivity : AppCompatActivity() {
         } else {
             super.onBackPressed()
         }
+    }
+
+    fun backLock() {
+        mBackLocked = true
     }
 
     private fun loadMainFragment() {
