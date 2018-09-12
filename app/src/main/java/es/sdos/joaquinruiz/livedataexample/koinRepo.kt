@@ -8,6 +8,7 @@ interface Repository {
     fun getUsers(): LiveData<List<User>>
     fun addUser(userUpdated: User)
     fun deleteAllUsers()
+
 }
 
 class MyRepository(val application: MyApplication) : Repository {
